@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "LearnPath"
+description = "A personalized learning platform for students that turns strengths, interests, performance, and available study time into an adaptive study plan with assessments, analytics, resources, and progress tracking."
+version = "1.0.0"
+id = "artifacts/learnpath"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22898
+
+[services.development]
+run = "pnpm --filter @workspace/learnpath run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/learnpath", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/learnpath/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22898"
+BASE_PATH = "/"

@@ -1,0 +1,35 @@
+build a code for personalized website for students where they can get a route map based on their skills,their strengths,weaknesses,interest and to analyse their performance and give them a personalized learning recommendation system 
+
+steps include:
+
+1. ask for students profile creation which includes name, gender including options - MALE / FEMALE / Others,gmail/ phone number and verify the number by sending an otp through message or gmail and in brackets include "*" which indicates mandatory filling, class with 12 options from 1 to 12 so that they can select any one option from the 12 options given, for 11th and 12th class students include another field asking them for the exams they are giving in the future -  the options include: JEE MAINS, JEE ADVANCED, CA FOUNDATION, NEET, BITSAT , State CET's , CUET UG, Other specialized exams, syllabus with three options to select: SSC, CBSE , ICSE, and other subjects involved, their their current skill level, available time for studying.
+
+2. ⁠Create a page which includes tests and quizzes. Ask for the selection of specific topic from each chapter of all the subjects. The test and quiz must include timer of 2 hours. After the completion of 2 hours the page must give a warning that the timer has ended and close the page and move onto next page. And finally the result must be declared in the next page which should include the number of correct and incorrect questions along with solutions. If the given answer is correct, there must given a green tick beside the question and if it is incorrect, it should indicate with a Red Cross beside the question  followed by the solution.
+
+3. ⁠performance analysis:
+
+give a bar graph which includes quiz/test marks include graphs based on  topic wise and  subject wise and include completion rate and time 
+
+3.skill gap identification :
+
+give a analysis from the test on their strong topics,weak topics and the topics that they need to revise 
+
+4.resource recommendations:
+
+include flashcards, suggested videos with notes button where they can click on that and note their points ,articles,mind maps,previous year questions with solutions at the end 
+
+5.Difficulty adaption:
+
+for low score - give easy questions 
+
+for medium score - medium level questions 
+
+for high score - give difficult level questions so that they can improve level wise 
+
+6.Personalized learning path:
+
+show them their previous track and give them level based questions and feedbacks and progress report                                                                                             7. Progress tracking :
+
+progress percentage,completed topics,current level of their improvement over time and give them a graph based on their performance and indicate them with a red symbol asking them to invest more time 
+
+and give them a personalized calendar to track their record
